@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://thermalintegrity.com.au/posts/</loc>
+    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/shrink-wrapped-building-sites/</loc>
+    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/contact/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -11,11 +23,6 @@
   <url>
     <loc>http://thermalintegrity.com.au/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://thermalintegrity.com.au/posts/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

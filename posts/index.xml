@@ -7,6 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Felix Andrews</copyright>
-    <atom:link href="http://thermalintegrity.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shrink-wrapped building sites</title>
+      <link>http://thermalintegrity.com.au/posts/shrink-wrapped-building-sites/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/shrink-wrapped-building-sites/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  I&amp;rsquo;m travelling in New Zealand. There&amp;rsquo;s a lot that&amp;rsquo;s familiar coming from Australia. But one thing that stood out for me is that they shrink-wrap their building sites.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/shrink-wrapped-building-sites/feature-shrinkwrap-lakefront.jpg" />
+    </item>
+    
   </channel>
 </rss>
