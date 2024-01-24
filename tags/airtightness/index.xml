@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>airtightness on Thermal Integrity</title>
+    <link>http://thermalintegrity.com.au/tags/airtightness/</link>
+    <description>Recent content in airtightness on Thermal Integrity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Felix Andrews</copyright>
+    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/airtightness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electricals</title>
+      <link>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Wiring up for Heat Recovery Ventilation, Air Conditioning, Lighting, Internet.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/feature-electrical.jpg" />
+    </item>
+    
+    <item>
+      <title>Wrap</title>
+      <link>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  PSA: Inside ≠ Outside. Stop uncontrolled air leakage for a better life.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/feature-wrap.jpg" />
+    </item>
+    
+  </channel>
+</rss>
