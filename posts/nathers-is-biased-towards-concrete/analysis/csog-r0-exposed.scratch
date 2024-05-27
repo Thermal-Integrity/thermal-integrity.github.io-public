@@ -1,0 +1,872 @@
+C****************************************************************************************
+C****************************************************************************************
+C
+C***** HERO ENERGY RATING SOFTWARE v 4.0 - CHENATH SCRATCH FILE *****
+C***** Project Name: Test house                          
+C***** Regulatory Mode: true
+C***** NatHERS Profile: 2022
+C***** Simulation Type: NatHERS Thermal Fabric
+C***** Simulation Result Set Type: [THERMAL_RATING]
+C***** Thermal Bridging Setting: NatHERS
+C***** Dwelling: Dwelling 01
+C***** Address: 1 Test Street, Canberra, ACT
+C***** Climate Zone: 24 - Canberra Airport
+C***** Date: 20/05/24
+C
+C****************************************************************************************
+C***** SECTION 1: PROJECT DATA **********************************************************
+C****************************************************************************************
+C
+C General & Diagnostics
+ 1  1   Test house                          Mon May 20PostCode260020031000000100
+C Climate File
+ 1  2   Data/CZ0703_CA_NH16_RMY.txt                                                                                                                                                               1                                                                   1
+C Latitude, Longitude & Elevation
+ 1  3    -35.3 149.1 150.0
+C Window Library Files
+ 1  4  1Data/DEFAULTS_2.3.3.13.0.9.bwg                                                                                                                                                      
+C Output Results File Name (Daily/Monthly/Annual Energy Results)
+ 1  7   Results/output.txt                                                                                                                                                                  
+C Total Energy File Name (typ natrep.dt2)
+ 1  8   Results/total.txt                                                                                                                                                                   
+C Hourly Temperature Results File Name
+ 1  9   Results/temps.txt                                                                                                                                                                   
+C Hourly Energy Results File Name
+ 1 10   Results/energy.txt                                                                                                                                                                  
+C
+C VENTILATION & GROUND MODELLING SETTINGS
+C         MaxItV  MaxIVI   ConvV  ConvVI    UrfV  RungeK  MaxItT   ConvT  MaxItG   ConvG    UrfT
+ 1 12        100     100 0.00100 0.01000    0.20       5     100 0.10000     100 0.00100    0.20
+C Pressure Coefficient (Cp) Data Sets for Openings
+ 1 13  1 -0.34 -0.45 -0.29  0.34  0.60  0.34 -0.29 -0.45
+ 1 13  2 -0.62  0.31  0.60  0.31 -0.62 -0.58 -0.34 -0.58
+ 1 13  3 -0.62 -0.58 -0.34 -0.58 -0.62  0.31  0.60  0.31
+ 1 13  4  0.60  0.34 -0.29 -0.45 -0.34 -0.45 -0.29  0.34
+ 1 13999 -0.50 -0.50 -0.50 -0.50 -0.50 -0.50 -0.50 -0.50
+C Shielding factor (Site Exposure)
+ 1 14     0.57
+C Ground model data. Ground reflectance, slab-on-ground area, perimeter, wall thickness, cond., diffusivity, edge insul., cond. floor area
+C       GndRef SArea  Peri Thick  Cond  Diff EdIns CArea
+ 1 15      0.2  85.8  38.3   0.2   1.5   4.6  0.00  67.8
+C
+C SHADING DEVICES & SCHEMES
+C Data for Window Internal Shading Devices (e.g. Curtains, Blinds & Screens) (Added R-Value (m2.K/W), Solar Transmittance, Solar Absorptance). 20 maximum
+C     ID  RVal Trans   Abs
+C Holland Blind
+ 1 16  1 0.030 0.200 0.300
+C
+C HORIZONTAL SHADING SCHEMES (I.E. EAVES). 999 maximum
+C Scheme no., eave proj., eave offset, eave horiz. offset, eave length/width, pergola proj, pergola offset, pergola horiz. offset, pergola length/width, pergola shading factors
+C     ID EProjVerOffRtHOffEaveWd PProjVerOffRtHOffPergWdPergSF
+ 1 20  1  0.60  0.00 10.43 14.25  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  2  0.60  0.30 11.05 14.25  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  3  0.60  0.00  0.90  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  4  0.60  0.30  1.57  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  5  0.60  0.00  7.28 14.25  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  6  0.60  0.30  7.79 14.25  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  7  0.60  0.00  4.02 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  8  0.60  0.30  4.64 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20  9  0.60  0.00  0.87 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 10  0.60  0.30  1.52 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 11  0.60  0.00  5.24  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 12  0.60  0.30  5.82  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 13  0.60  0.00  0.93 14.25  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 14  0.60  0.30  1.83 14.25  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 15  0.60  0.30  4.70 14.25  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 16  0.60  0.00  5.20  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 17  0.60  0.30  5.83  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 18  0.60  0.00  7.21 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 19  0.60  0.30  7.86 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 20  0.60  0.00  0.86  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 21  0.60  0.30  1.16  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 22  0.60  0.00 10.36 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 23  0.60  0.30 10.98 14.24  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 24  0.60  0.00  4.00  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 25  0.60  0.36  4.00  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 26  0.60  0.00  4.02  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+ 1 20 27  0.60  0.36  4.03  9.08  0.00  0.00  0.00  0.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+C
+C SIMULATION SETTINGS
+C  Number of repeats of day 1, repeat flag, starting temperature, grid size for shading calculations
+C        Day1s  Flag STemp GSize
+ 1 23       10     0 -99.0    40
+C  Stickiness period for controlled openings, Cooling thermostat leeway
+C        Stick CTher
+ 1 26        3   2.5
+ 1 27   Data/Matdata_2.4.3.23.0.3.bin                                                                                                                                                       
+ 1 29    10.00 0.650                                                                                                                                                                             1
+ 1 30   Results/infiltration.txt                                                                                                                                                            
+C
+C****************************************************************************************
+C
+C****************************************************************************************
+C***** SECTION 2: CONSTRUCTIONS DATA ****************************************************
+C This section describes the Constructions used in the Chenath engine with their ID codes, followed by Material layers (represented by their code & thickness in millimetres). Materials are listed from outside material to inside surface.
+C****************************************************************************************
+C
+C WINDOWS (ID 1->20)
+C  ID   Mat  mmMat  mmMAT  mmMat  mmMat  mm    Ind Window-Code         FrameU FrProp FraAbs CusGlU CusFrU CusFrP CusSCo
+ 2  1    25   4726  12 25   4                    1ATB-004-01 B          5.219  0.313   0.50
+C
+C
+C EXTERNAL WALLS & DOORS (ID 41->90)
+C  ID   Mat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mm
+C MatList: BRICK (EXTR) / VERT AIR-GAP (40MM/UNVENT/NON-REFL/E0.82) / FIBREGLASS INS R2.5 / PB
+ 2N
+ 2 41     4 110508  40210 110 34  10
+C
+C MatList: TIMBER (HW) / VERT AIR-GAP (20MM/UNVENT/NON-REFL/E0.82) / TIMBER (HW)
+ 2N
+ 2 42    62   5515  25 62   5
+C
+C
+C ROOFS (ID 91->190)
+C  ID   Mat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mm
+C MatList: STEEL / FIBREGLASS INS R1.3 / NO SURFACE RESIST
+ 2N
+ 2 91    45   1210  57999   0
+C
+C
+C EXT FLOORS (ID 191->240)
+C  ID   Mat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mm
+C MatList: GROUND / NO SURFACE RESIST
+ 2N
+ 2191   902   0999   0
+C
+C
+C INTERNAL FLOORS (ID 241->340) (Note: Also represents intermediary constructions for Ground floors & Suspended Subflr floors)
+C  ID   Mat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mm
+C MatList: NO SURFACE RESIST / SOIL / CONCRETE
+ 2N
+ 2241   999   0 44 200 18 100
+C
+C MatList: PB / FIBREGLASS INS R5.0 / NO SURFACE RESIST
+ 2N
+ 2242    34  10210 220999   0
+C
+C MatList: PB / NO SURFACE RESIST
+ 2N
+ 2243    34  10999   0
+C
+C MatList: NO SURFACE RESIST / CONVECT R (ROOFSPACE/CEILING) / NO SURFACE RESIST
+ 2N
+ 2244   999   0908   0999   0
+C
+C MatList: NO SURFACE RESIST / CONVECT R ROOF / NO SURFACE RESIST
+ 2N
+ 2245   999   0909   0999   0
+C
+C MatList: NO SURFACE RESIST / RADIATIVE R (ROOFSPACE/REFL) / NO SURFACE RESIST
+ 2N
+ 2246   999   0911   0999   0
+C
+C
+C INTERNAL CEILINGS (ID 341->440)
+C  ID   Mat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mm
+C MatList: CONCRETE / SOIL / NO SURFACE RESIST
+ 2N
+ 2341    18 100 44 200999   0
+C
+C MatList: NO SURFACE RESIST / FIBREGLASS INS R5.0 / PB
+ 2N
+ 2342   999   0210 220 34  10
+C
+C MatList: NO SURFACE RESIST / PB
+ 2N
+ 2343   999   0 34  10
+C
+C MatList: NO SURFACE RESIST / CONVECT R (ROOFSPACE/CEILING) / NO SURFACE RESIST
+ 2N
+ 2344   999   0908   0999   0
+C
+C MatList: NO SURFACE RESIST / CONVECT R ROOF / NO SURFACE RESIST
+ 2N
+ 2345   999   0909   0999   0
+C
+C MatList: NO SURFACE RESIST / RADIATIVE R (ROOFSPACE/REFL) / NO SURFACE RESIST
+ 2N
+ 2346   999   0911   0999   0
+C
+C
+C INT WALLS, DOORS & WINDOWS (ID 441->490) - (NOTE INTERNAL WINDOWS ARE MODELLED AS OPAQUE WALLS OF GLASS MATERIAL CONSTRUCTION)
+C  ID   Mat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mmMat  mm
+C MatList: PB / VERT AIR-GAP (90MM/UNVENT/NON-REFL/E0.82) / PB
+ 2N
+ 2441    34  10501  90 34  10
+C
+C****************************************************************************************
+C
+C****************************************************************************************
+C***** SECTION 3: ZONE DATA SECTIONS ****************************************************
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   1
+C ZONE NAME: Daytime
+C ZONE TYPE: Day Time
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  1           Daytime  21.6  0.17  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C Windows
+C       Height Width  AzimHoriS1HoriS2VertS1 Scrn1 Scrn2 Scrn3 Curtn Blind
+ 3  1  1  1.50  1.50   0.0     2     0     0     0     0     0     1     0
+ 3  1  1  1.50  1.50 270.0     4     0     0     0     0     0     1     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  1 41  2.40  3.00  4.95   0.0  0.50  0.50  1.00     1     0     0     0     0  0.00     0
+ 3  1 41  2.40  3.00  4.95 270.0  0.50  0.50  1.00     3     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  1241  9.00  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  1342  9.00  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  1441  7.20  0.50     2  0.00
+ 3  1441  5.16  0.50     8  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  1700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  1701  1.01   0.6    85  0.60  2.10     4     1   0.5     0     0     0     0     0
+ 3  1702  1.35   0.6   100  0.00  1.35    -1     1   0.5     8     1     0     0     0
+ 3  1703  1.01   0.6    85  0.60  2.10     3     1   0.5     0     0     0     0     0
+C
+C Heating Thermostat Settings (degC) from 01:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  1811   0.0   0.0   0.0   0.0   0.0   0.0   0.0  20.0  20.0  20.0  20.0  20.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  1812  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0
+C Cooling Thermostat Settings (degC) from 01:00 to 24:00. NB: Fans & Ventilation adjust these
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  1813   0.0   0.0   0.0   0.0   0.0   0.0   0.0  24.5  24.5  24.5  24.5  24.5
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  1814  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5
+C
+C Window Internal Shade Settings
+C Time Always Close, Time Allow Open, Temperature to Close at, Solar Radiation to Close at (W/m2)
+C        TimCl TimOp TemCl SolCl
+ 3  1821    18     7  27.0 200.0
+C Window External Shade Settings
+C Temperature to Close at, Solar Radiation to Close at(W/m2)
+C        TemCl SolCl
+ 3  1823  24.0  75.0
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  1825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   2
+C ZONE NAME: Bedroom 3
+C ZONE TYPE: Bedroom
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  2         Bedroom 3  21.6  0.17  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C Windows
+C       Height Width  AzimHoriS1HoriS2VertS1 Scrn1 Scrn2 Scrn3 Curtn Blind
+ 3  2  1  1.50  1.50   0.0     6     0     0     0     0     0     1     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  2 41  2.40  3.00  4.95   0.0  0.50  0.50  1.00     5     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  2241  9.00  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  2342  9.00  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  2441  7.20  0.50     5  0.00
+ 3  2441  5.16  0.50     8  0.00
+ 3  2441  7.20  0.50     1  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  2700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  2701  1.01   0.6    85  0.60  2.10     4     1   0.5     0     0     0     0     0
+ 3  2702  1.35   0.6   100  0.00  1.35    -1     1   0.5     8     1     0     0     0
+C
+C Internal Sensible Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  2801    11    11    11    11    11    11    11     0     0     0     0     0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  2802     0     0     0     0     0     0     0     7     7     7    19    11
+C Internal Latent Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  2803     6     6     6     6     6     6     6     0     0     0     0     0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  2804     0     0     0     0     0     0     0     0     0     0     6     6
+C
+C Heating Thermostat Settings (degC) from 01:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  2811  15.0  15.0  15.0  15.0  15.0  15.0  15.0  18.0  18.0   0.0   0.0   0.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  2812   0.0   0.0   0.0   0.0  18.0  18.0  18.0  18.0  18.0  18.0  18.0  18.0
+C Cooling Thermostat Settings (degC) from 01:00 to 24:00. NB: Fans & Ventilation adjust these
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  2813  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5   0.0   0.0   0.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  2814   0.0   0.0   0.0   0.0  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5
+C
+C Window Internal Shade Settings
+C Time Always Close, Time Allow Open, Temperature to Close at, Solar Radiation to Close at (W/m2)
+C        TimCl TimOp TemCl SolCl
+ 3  2821    18     7  27.0 200.0
+C Window External Shade Settings
+C Temperature to Close at, Solar Radiation to Close at(W/m2)
+C        TemCl SolCl
+ 3  2823  24.0  75.0
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  2825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   3
+C ZONE NAME: Bedroom 2
+C ZONE TYPE: Bedroom
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  3         Bedroom 2  21.6  0.17  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C Windows
+C       Height Width  AzimHoriS1HoriS2VertS1 Scrn1 Scrn2 Scrn3 Curtn Blind
+ 3  3  1  1.50  1.50 180.0     8     0     0     0     0     0     1     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  3 41  2.40  3.00  4.95 180.0  0.50  0.50  1.00     7     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  3241  9.00  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  3342  9.00  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  3441  5.16  0.50     8  0.00
+ 3  3441  7.20  0.50     6  0.00
+ 3  3441  7.20  0.50     4  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  3700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  3701  1.35   0.6   100  0.00  1.35    -1     1   0.5     8     1     0     0     0
+ 3  3702  1.01   0.6    85  0.60  2.10     1     1   0.5     0     0     0     0     0
+C
+C Internal Sensible Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  3801    11    11    11    11    11    11    11     0     0     0     0     0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  3802     0     0     0     0     0     0     0     7     7     7    19    11
+C Internal Latent Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  3803     6     6     6     6     6     6     6     0     0     0     0     0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  3804     0     0     0     0     0     0     0     0     0     0     6     6
+C
+C Heating Thermostat Settings (degC) from 01:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  3811  15.0  15.0  15.0  15.0  15.0  15.0  15.0  18.0  18.0   0.0   0.0   0.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  3812   0.0   0.0   0.0   0.0  18.0  18.0  18.0  18.0  18.0  18.0  18.0  18.0
+C Cooling Thermostat Settings (degC) from 01:00 to 24:00. NB: Fans & Ventilation adjust these
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  3813  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5   0.0   0.0   0.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  3814   0.0   0.0   0.0   0.0  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5
+C
+C Window Internal Shade Settings
+C Time Always Close, Time Allow Open, Temperature to Close at, Solar Radiation to Close at (W/m2)
+C        TimCl TimOp TemCl SolCl
+ 3  3821    18     7  27.0 200.0
+C Window External Shade Settings
+C Temperature to Close at, Solar Radiation to Close at(W/m2)
+C        TemCl SolCl
+ 3  3823  24.0  75.0
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  3825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   4
+C ZONE NAME: Bath
+C ZONE TYPE: Unconditioned
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  4              Bath  21.6  0.36  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C Windows
+C       Height Width  AzimHoriS1HoriS2VertS1 Scrn1 Scrn2 Scrn3 Curtn Blind
+ 3  4  1  1.50  1.50 180.0    10     0     0     0     0     0     1     0
+ 3  4  1  1.50  1.50 270.0    12     0     0     0     0     0     1     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  4 41  2.40  3.00  4.95 180.0  0.50  0.50  1.00     9     0     0     0     0  0.00     0
+ 3  4 41  2.40  3.00  4.95 270.0  0.50  0.50  1.00    11     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  4241  9.00  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  4342  8.88  0.50    11  0.00
+ 3  4343  0.12  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  4441  5.16  0.50     8  0.00
+ 3  4441  7.20  0.50     3  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  4700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  4701  1.35   0.6   100  0.00  1.35    -1     1   0.5     8     1     0     0     0
+ 3  4702  1.01   0.6    85  0.60  2.10     1     1   0.5     0     0     0     0     0
+ 3  4703  1.01   0.6    85  0.60  2.10     3     1   0.5     0     0     0     0     0
+C Window Internal Shade Settings
+C Time Always Close, Time Allow Open, Temperature to Close at, Solar Radiation to Close at (W/m2)
+C        TimCl TimOp TemCl SolCl
+ 3  4821    18     7  27.0 200.0
+C Window External Shade Settings
+C Temperature to Close at, Solar Radiation to Close at(W/m2)
+C        TemCl SolCl
+ 3  4823  24.0  75.0
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  4825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   5
+C ZONE NAME: Kitchen Living
+C ZONE TYPE: Kitchen/Living
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  5    Kitchen Living  44.3  0.26  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C Windows
+C       Height Width  AzimHoriS1HoriS2VertS1 Scrn1 Scrn2 Scrn3 Curtn Blind
+ 3  5  1  1.50  1.50   0.0    14     0     0     0     0     0     1     0
+ 3  5  1  1.50  1.50   0.0    15     0     0     0     0     0     1     0
+ 3  5  1  1.50  1.50  90.0    17     0     0     0     0     0     1     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  5 41  2.40  6.15 10.26   0.0  0.50  0.50  1.00    13     0     0     0     0  0.00     0
+ 3  5 41  2.40  3.00  4.95  90.0  0.50  0.50  1.00    16     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  5241 18.46  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  5342 18.33  0.50    11  0.00
+ 3  5343  0.12  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  5441 12.72  0.50     8  0.00
+ 3  5441  7.20  0.50     2  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  5700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  5701  1.35   0.6   100  0.00  1.35    -1     1   0.5     8     1     0     0     0
+ 3  5702  1.01   0.6    85  0.60  2.10     4     1   0.5     0     0     0     0     0
+ 3  5703  1.01   0.6    85  0.60  2.10     4     1   0.5     0     0     0     0     0
+ 3  5704  1.01   0.6    85  0.60  2.10     2     1   0.5     0     0     0     0     0
+C
+C Internal Sensible Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  5801   100   100   100   100   100   100   100   460   160   116   116   116
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  5802   116   116   116   116   116   170  1170   320   320   320   100   100
+C Internal Latent Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  5803     0     0     0     0     0     0     0   276    76    38    38    38
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  5804    38    38    38    38    38    57   657    57    57    57     0     0
+C
+C Heating Thermostat Settings (degC) from 01:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  5811   0.0   0.0   0.0   0.0   0.0   0.0   0.0  20.0  20.0  20.0  20.0  20.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  5812  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0
+C Cooling Thermostat Settings (degC) from 01:00 to 24:00. NB: Fans & Ventilation adjust these
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  5813   0.0   0.0   0.0   0.0   0.0   0.0   0.0  24.5  24.5  24.5  24.5  24.5
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  5814  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5
+C
+C Window Internal Shade Settings
+C Time Always Close, Time Allow Open, Temperature to Close at, Solar Radiation to Close at (W/m2)
+C        TimCl TimOp TemCl SolCl
+ 3  5821    18     7  27.0 200.0
+C Window External Shade Settings
+C Temperature to Close at, Solar Radiation to Close at(W/m2)
+C        TemCl SolCl
+ 3  5823  24.0  75.0
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  5825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   6
+C ZONE NAME: Bath 2
+C ZONE TYPE: Unconditioned
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  6            Bath 2  21.6  0.36  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C Windows
+C       Height Width  AzimHoriS1HoriS2VertS1 Scrn1 Scrn2 Scrn3 Curtn Blind
+ 3  6  1  1.50  1.50 180.0    19     0     0     0     0     0     1     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  6 41  2.40  3.00  4.95 180.0  0.50  0.50  1.00    18     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  6241  9.00  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  6342  8.88  0.50    11  0.00
+ 3  6343  0.12  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  6441  5.16  0.50     8  0.00
+ 3  6441  7.20  0.50     7  0.00
+ 3  6441  7.20  0.50     3  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  6700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  6701  1.35   0.6   100  0.00  1.35    -1     1   0.5     8     1     0     0     0
+ 3  6702  1.01   0.6    85  0.60  2.10     1     1   0.5     0     0     0     0     0
+C Window Internal Shade Settings
+C Time Always Close, Time Allow Open, Temperature to Close at, Solar Radiation to Close at (W/m2)
+C        TimCl TimOp TemCl SolCl
+ 3  6821    18     7  27.0 200.0
+C Window External Shade Settings
+C Temperature to Close at, Solar Radiation to Close at(W/m2)
+C        TemCl SolCl
+ 3  6823  24.0  75.0
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  6825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   7
+C ZONE NAME: Bedroom 1
+C ZONE TYPE: Bedroom
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  7         Bedroom 1  21.6  0.17  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C Windows
+C       Height Width  AzimHoriS1HoriS2VertS1 Scrn1 Scrn2 Scrn3 Curtn Blind
+ 3  7  1  1.50  1.50  90.0    21     0     0     0     0     0     1     0
+ 3  7  1  1.50  1.50 180.0    23     0     0     0     0     0     1     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  7 41  2.40  3.00  4.95  90.0  0.50  0.50  1.00    20     0     0     0     0  0.00     0
+ 3  7 41  2.40  3.00  4.95 180.0  0.50  0.50  1.00    22     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  7241  9.00  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  7342  9.00  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  7441  5.16  0.50     8  0.00
+ 3  7441  7.20  0.50     6  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  7700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  7701  1.35   0.6   100  0.00  1.35    -1     1   0.5     8     1     0     0     0
+ 3  7702  1.01   0.6    85  0.60  2.10     2     1   0.5     0     0     0     0     0
+ 3  7703  1.01   0.6    85  0.60  2.10     1     1   0.5     0     0     0     0     0
+C
+C Internal Sensible Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  7801    11    11    11    11    11    11    11     0     0     0     0     0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  7802     0     0     0     0     0     0     0     7     7     7    19    11
+C Internal Latent Heat Gains (W) from 00:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  7803     6     6     6     6     6     6     6     0     0     0     0     0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  7804     0     0     0     0     0     0     0     0     0     0     6     6
+C
+C Heating Thermostat Settings (degC) from 01:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  7811  15.0  15.0  15.0  15.0  15.0  15.0  15.0  18.0  18.0   0.0   0.0   0.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  7812   0.0   0.0   0.0   0.0  18.0  18.0  18.0  18.0  18.0  18.0  18.0  18.0
+C Cooling Thermostat Settings (degC) from 01:00 to 24:00. NB: Fans & Ventilation adjust these
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  7813  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5   0.0   0.0   0.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  7814   0.0   0.0   0.0   0.0  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5
+C
+C Window Internal Shade Settings
+C Time Always Close, Time Allow Open, Temperature to Close at, Solar Radiation to Close at (W/m2)
+C        TimCl TimOp TemCl SolCl
+ 3  7821    18     7  27.0 200.0
+C Window External Shade Settings
+C Temperature to Close at, Solar Radiation to Close at(W/m2)
+C        TemCl SolCl
+ 3  7823  24.0  75.0
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  7825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   8
+C ZONE NAME: Corridor
+C ZONE TYPE: Day Time
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  8          Corridor  32.1  0.19  0.06  0.48Normal  1.00     0     0 0.000     0
+C
+C External Walls
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3  SHGF Louvr
+ 3  8 41  2.40  1.07  0.39  90.0  0.50  0.50  1.00    24     0     0     0     0  0.00     0
+ 3  8 41  2.40  1.07  0.39 270.0  0.50  0.50  1.00    26     0     0     0     0  0.00     0
+C
+C External Doors
+C       Height Width NArea  Azim ExtSA IntSA ExtEmHoriS1VertS1 Scrn1 Scrn2 Scrn3   SHGF Louvr
+ 3  8 42  2.04  1.07  2.18  90.0  0.50  0.50  1.00    25     0     0     0     0  0.00     0
+ 3  8 42  2.04  1.07  2.18 270.0  0.50  0.50  1.00    27     0     0     0     0  0.00     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  8241 13.38  0.50    10  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  8342 13.38  0.50    11  0.00
+C
+C Internal Walls
+C         Area  AbsI  AdjZ  SHGF
+ 3  8441  5.16  0.50     1  0.00
+ 3  8441  5.16  0.50     7  0.00
+ 3  8441  5.16  0.50     2  0.00
+ 3  8441 12.72  0.50     5  0.00
+ 3  8441  5.16  0.50     3  0.00
+ 3  8441  5.16  0.50     6  0.00
+ 3  8441  5.16  0.50     4  0.00
+C
+C General Ventilation Settings
+C        FlrHtCeilHtMecSupMechEx
+ 3  8700  0.30  2.40   0.0   0.0
+C
+C Ventilation Openings
+C Windows, Doors & Permanent Wall Openings
+C    No. Width    Cd  Perc   Low  HighCpIndx  Type ExponAdjZonConTyp MidHtContrlLouvre
+ 3  8701  1.35   0.6   100  0.00  1.35    -1     1   0.5     1     1     0     0     0
+ 3  8702  0.96   0.6    85  0.00  2.04     2     1   0.5     0     0     0     0     0
+ 3  8703  1.35   0.6   100  0.00  1.35    -1     1   0.5     7     1     0     0     0
+ 3  8704  0.96   0.6    85  0.00  2.04     3     1   0.5     0     0     0     0     0
+ 3  8705  1.35   0.6   100  0.00  1.35    -1     1   0.5     2     1     0     0     0
+ 3  8706  1.35   0.6   100  0.00  1.35    -1     1   0.5     5     1     0     0     0
+ 3  8707  1.35   0.6   100  0.00  1.35    -1     1   0.5     3     1     0     0     0
+ 3  8708  1.35   0.6   100  0.00  1.35    -1     1   0.5     6     1     0     0     0
+ 3  8709  1.35   0.6   100  0.00  1.35    -1     1   0.5     4     1     0     0     0
+C
+C Heating Thermostat Settings (degC) from 01:00 to 24:00
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  8811   0.0   0.0   0.0   0.0   0.0   0.0   0.0  20.0  20.0  20.0  20.0  20.0
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  8812  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0  20.0
+C Cooling Thermostat Settings (degC) from 01:00 to 24:00. NB: Fans & Ventilation adjust these
+C        00-01 01-02 02-03 03-04 04-05 05-06 06-07 07-08 08-09 09-10 10-11 11-12
+ 3  8813   0.0   0.0   0.0   0.0   0.0   0.0   0.0  24.5  24.5  24.5  24.5  24.5
+C        12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24
+ 3  8814  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5  24.5
+C
+C
+C Natural Ventilation Settings
+C   Ventilation on & off times, on & off temperatures, A factor, B factor
+C        OnTimOffTim OnTemOffTem     A     B
+ 3  8825     0    24  24.0  22.0   0.0   0.0
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:   9
+C ZONE NAME: Roof Space 1
+C ZONE TYPE: Roof Space
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3  9      Roof Space 1  56.3  2.00  1.00  0.48RoofSA  1.00    11    12 0.050     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3  9244 85.83  0.50    11  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3  9345 93.24  0.50    12  0.00
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:  10
+C ZONE NAME: Ground Surface Zone
+C ZONE TYPE: Ground Surface Zone
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3 10            GROUND   0.0  0.00  0.00  0.00Normal  1.00     0     0 0.000     0
+C
+C External Floors
+C         Area  AbsISHGFra
+ 3 10191 85.84  0.50  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3 10341  9.00  0.50     3  0.00
+ 3 10341  9.00  0.50     7  0.00
+ 3 10341  9.00  0.50     6  0.00
+ 3 10341  9.00  0.50     4  0.00
+ 3 10341 18.46  0.50     5  0.00
+ 3 10341  9.00  0.50     2  0.00
+ 3 10341  9.00  0.50     1  0.00
+ 3 10341 13.38  0.50     8  0.00
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:  11
+C ZONE NAME: Normal
+C ZONE TYPE: Roof Space Top of Ceiling Surface
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3 11       RFSP-CEIL-1   0.0  0.00  0.00  0.00Normal  1.00     0     0 0.000     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3 11242  9.00  0.50     1  0.00
+ 3 11242  9.00  0.50     2  0.00
+ 3 11242  9.00  0.50     3  0.00
+ 3 11242  8.88  0.50     4  0.00
+ 3 11243  0.12  0.50     4  0.00
+ 3 11242  8.88  0.50     6  0.00
+ 3 11243  0.12  0.50     6  0.00
+ 3 11242  9.00  0.50     7  0.00
+ 3 11242 13.38  0.50     8  0.00
+ 3 11242 18.33  0.50     5  0.00
+ 3 11243  0.12  0.50     5  0.00
+C
+C Internal Ceilings
+C         Area  AbsI  AdjZ  SHGF
+ 3 11344 85.83  0.50     9  0.00
+ 3 11346 85.83  0.50    12  0.00
+C****************************************************************************************
+C
+C****************************************************************************************
+C ZONE ID:  12
+C ZONE NAME: Normal
+C ZONE TYPE: Roof Space Underside of Roof Surface
+C
+C Name, volume (m3), infiltration data A, infiltration factor B (note: infiltration rate = A + B*v (v=wind speed in m/s)), terrain factor/wind speed reduction factor, zone type, SHG dist. fractions flag, zone adj, zone adj2, emissivity, write temp results to file flag
+C                  Name   Vol     A     B WsRed  Type EstSG AdjZ1 AdjZ2 REmis TempF
+ 3 12       RFSP-ROOF-1   0.0  0.00  0.00  0.00Normal  1.00     0     0 0.000     0
+C
+C Roofs
+C         Area  Azim Slope ExtSA IntSA ExtEm SHGFr
+ 3 12 91 23.31   0.0  23.0  0.50  0.50  0.90     0
+ 3 12 91 23.31  90.0  23.0  0.50  0.50  0.90     0
+ 3 12 91 23.31 180.0  23.0  0.50  0.50  0.90     0
+ 3 12 91 23.31 270.0  23.0  0.50  0.50  0.90     0
+C
+C Internal Floors
+C         Area  AbsI  AdjZ  SHGF
+ 3 12245 93.24  0.50     9  0.00
+ 3 12246 85.83  0.50    11  0.00
+C
+C****************************************************************************************
+ 9
+C***** END OF SCRATCH FILE ****************************************************

@@ -123,13 +123,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://thermalintegrity.com.au/posts/nathers-makes-it-hard-to-build-small-houses/</loc>
-    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
+    <loc>http://thermalintegrity.com.au/posts/nathers-is-biased-towards-concrete/</loc>
+    <lastmod>2024-05-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://thermalintegrity.com.au/posts/</loc>
+    <lastmod>2024-05-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/nathers-makes-it-hard-to-build-small-houses/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
