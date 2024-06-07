@@ -123,13 +123,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://thermalintegrity.com.au/posts/downlights-from-below/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+    <loc>http://thermalintegrity.com.au/posts/</loc>
+    <lastmod>2024-06-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://thermalintegrity.com.au/posts/</loc>
+    <loc>http://thermalintegrity.com.au/posts/why-nathers-should-be-open-source/</loc>
+    <lastmod>2024-06-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/downlights-from-below/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
