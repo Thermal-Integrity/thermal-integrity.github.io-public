@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Felix Andrews</copyright>
-    <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/airtightness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/airtightness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Electricals</title>
       <link>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</link>
@@ -54,6 +54,18 @@
   Sheet metal with ventilated cavity. Low cost, highly durable.
 &lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/3-cladding/feature-cladding.jpg" />
+    </item>
+    
+    <item>
+      <title>Gap sealing</title>
+      <link>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  A life less leaky.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/gap-sealing/feature-study-ceiling-gap-masking.jpg" />
     </item>
     
   </channel>

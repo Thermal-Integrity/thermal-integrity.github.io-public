@@ -7,7 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Felix Andrews</copyright>
-    <lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/nathers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/nathers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thermal bridges</title>
+      <link>http://thermalintegrity.com.au/posts/home-journey/thermal-bridges/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/home-journey/thermal-bridges/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Steel beams are the weakest link. Thermally speaking.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/thermal-bridges/feature-thermal-bridge.jpg" />
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://thermalintegrity.com.au/posts/home-journey/introduction/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/home-journey/introduction/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  How the Australian building industry and regulations failed to deliver a comfortable house.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/introduction/feature-reno-plans.jpg" />
+    </item>
+    
     <item>
       <title>Why NatHERS should be open source</title>
       <link>http://thermalintegrity.com.au/posts/why-nathers-should-be-open-source/</link>

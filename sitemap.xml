@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/conclusions/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/11-details/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -11,6 +17,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/10-finishing/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/thermal-bridges/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -27,6 +39,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/ceiling-insulation/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/quiet-shed/8-details/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -35,6 +53,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/box-gutter-insulation/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -51,6 +75,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/slab-edge-insulation/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/quiet-shed/6-finishing/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -59,6 +89,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/window-coverings/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -75,6 +111,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/secondary-glazing/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/quiet-shed/4-windows/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -83,6 +125,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/4-windows/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/wall-insulation/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -99,6 +147,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/quiet-shed/2-structural/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -107,6 +161,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/2-foundations/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/introduction/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -123,8 +183,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/home-journey/</loc>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/</loc>
-    <lastmod>2024-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
