@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Felix Andrews</copyright>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
       <link>http://thermalintegrity.com.au/posts/home-journey/introduction/</link>
@@ -18,6 +18,18 @@
   How the Australian building industry and regulations failed to deliver a comfortable house.
 &lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/introduction/feature-reno-plans.jpg" />
+    </item>
+    
+    <item>
+      <title>Home ventilation</title>
+      <link>http://thermalintegrity.com.au/posts/home-ventilation/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/home-ventilation/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  How to breathe well (without freezing). Solving indoor air quality and mould problems using mechanical ventilation with heat recovery.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-ventilation/feature-hrv-duct-distribution.jpg" />
     </item>
     
   </channel>

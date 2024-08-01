@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Felix Andrews</copyright>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home ventilation</title>
+      <link>http://thermalintegrity.com.au/posts/home-ventilation/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/home-ventilation/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  How to breathe well (without freezing). Solving indoor air quality and mould problems using mechanical ventilation with heat recovery.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-ventilation/feature-hrv-duct-distribution.jpg" />
+    </item>
+    
     <item>
       <title>Why NatHERS should be open source</title>
       <link>http://thermalintegrity.com.au/posts/why-nathers-should-be-open-source/</link>
@@ -15,7 +27,7 @@
       
       <guid>http://thermalintegrity.com.au/posts/why-nathers-should-be-open-source/</guid>
       <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  For transparency, progress and accountability of a model that is central to the Australian residential building sector affecting millions of people. (Ownership and control can remain with CSIRO.)
+  For transparency, progress and accountability of a model that is central to the Australian residential building sector affecting millions. (Ownership can remain with CSIRO.)
 &lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/why-nathers-should-be-open-source/feature-chenath-run.jpg" />
     </item>
