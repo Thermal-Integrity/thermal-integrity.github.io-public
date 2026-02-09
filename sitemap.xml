@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/10-details/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/home-journey/conclusions/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -39,6 +45,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/8-door-and-window/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/home-journey/ceiling-insulation/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -53,6 +65,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/7-floor/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -75,6 +93,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/6-rendering/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/home-journey/slab-edge-insulation/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -89,6 +113,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/5-roofing/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -111,6 +141,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/4-hempcrete/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/home-journey/secondary-glazing/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -125,6 +161,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/4-windows/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/3-frame/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -147,6 +189,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/2-foundations/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -161,6 +209,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/2-foundations/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/1-design/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -183,6 +237,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/contact/</loc>
     <lastmod>2025-09-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -201,8 +261,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://thermalintegrity.com.au/posts/</loc>
-    <lastmod>2024-09-27T00:00:00+00:00</lastmod>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/</loc>
+    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
