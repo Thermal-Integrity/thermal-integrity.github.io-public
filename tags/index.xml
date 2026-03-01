@@ -7,21 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
-    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>insulation</title>
-      <link>http://thermalintegrity.com.au/tags/insulation/</link>
-      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/tags/insulation/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>data</title>
       <link>http://thermalintegrity.com.au/tags/data/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/tags/data/</guid>
       <description></description>
@@ -29,11 +19,31 @@
     </item>
     
     <item>
+      <title>insulation</title>
+      <link>http://thermalintegrity.com.au/tags/insulation/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/tags/insulation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>ventilation</title>
       <link>http://thermalintegrity.com.au/tags/ventilation/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/tags/ventilation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>http://thermalintegrity.com.au/tags/windows/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/tags/windows/</guid>
       <description></description>
       
     </item>
@@ -59,11 +69,11 @@
     </item>
     
     <item>
-      <title>windows</title>
-      <link>http://thermalintegrity.com.au/tags/windows/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      <title>shading</title>
+      <link>http://thermalintegrity.com.au/tags/shading/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/tags/windows/</guid>
+      <guid>http://thermalintegrity.com.au/tags/shading/</guid>
       <description></description>
       
     </item>

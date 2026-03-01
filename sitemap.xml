@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</loc>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/lime-sublime/10-details/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -238,7 +244,7 @@
   </url>
   <url>
     <loc>http://thermalintegrity.com.au/posts/</loc>
-    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -9,6 +9,18 @@
     <copyright>© 2026 Thermal Integrity</copyright>
     <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/series/lime-sublime/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ventilation fan</title>
+      <link>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Oops, forgot to add fresh air.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/feature-vent-inside.jpg" />
+    </item>
+    
+    <item>
       <title>Details</title>
       <link>http://thermalintegrity.com.au/posts/lime-sublime/10-details/</link>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
@@ -39,7 +51,7 @@
       
       <guid>http://thermalintegrity.com.au/posts/lime-sublime/7-floor/</guid>
       <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Insulated limecrete with slate tiles
+  Insulated limecrete with slate tiles.
 &lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/7-floor/feature-limecrete-floor-with-slate.jpg" />
     </item>
