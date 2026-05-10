@@ -45,6 +45,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/9-details/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/home-journey/thermal-bridges/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -59,6 +65,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/8-windows/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -87,6 +99,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/lime-sublime/7-floor/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -107,6 +125,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/7-cladding/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/6-roof/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -135,6 +159,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/5-floor-and-ceiling/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/lime-sublime/5-roofing/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -155,6 +185,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/5-insulation/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/4-insulation/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -183,6 +219,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/3-electrics/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/lime-sublime/3-frame/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -207,6 +249,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/2-structure/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://thermalintegrity.com.au/posts/lime-sublime/2-foundations/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -227,6 +275,12 @@
   <url>
     <loc>http://thermalintegrity.com.au/posts/the-pea-hut/2-foundations/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/1-intro/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -256,7 +310,13 @@
   </url>
   <url>
     <loc>http://thermalintegrity.com.au/posts/</loc>
-    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/</loc>
+    <lastmod>2026-05-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

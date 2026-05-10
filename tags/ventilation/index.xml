@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
-    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/ventilation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/ventilation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ventilation fan</title>
       <link>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</link>
@@ -30,6 +30,18 @@
   Wiring up for Heat Recovery Ventilation, Air Conditioning, Lighting, Internet.
 &lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/feature-electrical.jpg" />
+    </item>
+    
+    <item>
+      <title>Bathroom</title>
+      <link>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  A healthy space should be based on managing moisture. Constant ventilation, vapour permeable walls, and hygroscopic clay plaster.
+&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/feature-bathroom-window.jpg" />
     </item>
     
     <item>
