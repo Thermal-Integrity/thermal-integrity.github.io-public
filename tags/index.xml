@@ -8,8 +8,9 @@
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
     <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>data</title>
+      <title>Data</title>
       <link>http://thermalintegrity.com.au/tags/data/</link>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
       
@@ -19,7 +20,7 @@
     </item>
     
     <item>
-      <title>insulation</title>
+      <title>Insulation</title>
       <link>http://thermalintegrity.com.au/tags/insulation/</link>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
       
@@ -29,7 +30,7 @@
     </item>
     
     <item>
-      <title>ventilation</title>
+      <title>Ventilation</title>
       <link>http://thermalintegrity.com.au/tags/ventilation/</link>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
       
@@ -39,7 +40,7 @@
     </item>
     
     <item>
-      <title>windows</title>
+      <title>Windows</title>
       <link>http://thermalintegrity.com.au/tags/windows/</link>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
       
@@ -49,7 +50,17 @@
     </item>
     
     <item>
-      <title>airtightness</title>
+      <title>Shading</title>
+      <link>http://thermalintegrity.com.au/tags/shading/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/tags/shading/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Airtightness</title>
       <link>http://thermalintegrity.com.au/tags/airtightness/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
@@ -59,21 +70,11 @@
     </item>
     
     <item>
-      <title>nathers</title>
+      <title>Nathers</title>
       <link>http://thermalintegrity.com.au/tags/nathers/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/tags/nathers/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>shading</title>
-      <link>http://thermalintegrity.com.au/tags/shading/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/tags/shading/</guid>
       <description></description>
       
     </item>

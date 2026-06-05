@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ventilation on Thermal Integrity</title>
+    <title>Ventilation on Thermal Integrity</title>
     <link>http://thermalintegrity.com.au/tags/ventilation/</link>
-    <description>Recent content in ventilation on Thermal Integrity</description>
+    <description>Recent content in Ventilation on Thermal Integrity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
     <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/ventilation/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>Ventilation fan</title>
-      <link>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</link>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Bathroom</title>
+      <link>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Oops, forgot to add fresh air.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/feature-vent-inside.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  A healthy space should be based on managing moisture. Constant ventilation, vapour permeable walls, and hygroscopic clay plaster.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/feature-bathroom-window.jpg" />
     </item>
     
     <item>
@@ -26,22 +25,18 @@
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Wiring up for Heat Recovery Ventilation, Air Conditioning, Lighting, Internet.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Wiring up for Heat Recovery Ventilation, Air Conditioning, Lighting, Internet.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/feature-electrical.jpg" />
     </item>
     
     <item>
-      <title>Bathroom</title>
-      <link>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/</link>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <title>Ventilation fan</title>
+      <link>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  A healthy space should be based on managing moisture. Constant ventilation, vapour permeable walls, and hygroscopic clay plaster.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/cottage-deep-retrofit/7-bathroom/feature-bathroom-window.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Oops, forgot to add fresh air.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/11-ventilation-fan/feature-vent-inside.jpg" />
     </item>
     
     <item>
@@ -50,9 +45,7 @@
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/home-ventilation/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  How to breathe well (without freezing). Solving indoor air quality and mould problems using mechanical ventilation with heat recovery.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  How to breathe well (without freezing). Solving indoor air quality and mould problems using mechanical ventilation with heat recovery.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-ventilation/feature-hrv-duct-distribution.jpg" />
     </item>
     

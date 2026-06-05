@@ -1,72 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>windows on Thermal Integrity</title>
+    <title>Windows on Thermal Integrity</title>
     <link>http://thermalintegrity.com.au/tags/windows/</link>
-    <description>Recent content in windows on Thermal Integrity</description>
+    <description>Recent content in Windows on Thermal Integrity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
     <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/windows/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Windows</title>
-      <link>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/8-windows/</link>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/8-windows/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Every home needs decent windows. Of course these come at a price. So I tried my hand at making my own timber windows.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/cottage-deep-retrofit/8-windows/feature-window-awning-from-outside.jpg" />
-    </item>
-    
-    <item>
-      <title>Door and window</title>
-      <link>http://thermalintegrity.com.au/posts/lime-sublime/8-door-and-window/</link>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/posts/lime-sublime/8-door-and-window/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  An insulated door and a uPVC window. Thrifted luxury.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/8-door-and-window/feature-door-wool-insulation.jpg" />
-    </item>
-    
-    <item>
-      <title>Shading</title>
-      <link>http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Radiation control. External sliding shade screens, plantings, awning.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/feature-shading.jpg" />
-    </item>
-    
-    <item>
-      <title>Window coverings</title>
-      <link>http://thermalintegrity.com.au/posts/home-journey/window-coverings/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/posts/home-journey/window-coverings/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  It&amp;rsquo;s curtains folks.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/window-coverings/feature-backdoor-curtain-closed-detail.jpg" />
-    </item>
-    
-    <item>
-      <title>Soundproofing</title>
-      <link>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Air seals, insulation, staggered studs, double plasterboard, acoustic underlay, secondary glazing.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/feature-glue.jpg" />
-    </item>
     
     <item>
       <title>Secondary glazing</title>
@@ -74,9 +15,7 @@
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/home-journey/secondary-glazing/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Adding another layer to the windows.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Adding another layer to the windows.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/secondary-glazing/feature-acrylic-unwrapping.jpg" />
     </item>
     
@@ -86,9 +25,7 @@
       <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/quiet-shed/4-windows/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Made from offcuts and shortcuts.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Made from offcuts and shortcuts.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/4-windows/feature-windows.jpg" />
     </item>
     
@@ -98,10 +35,58 @@
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/the-pea-hut/4-windows/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Mind blown: windows that don&amp;rsquo;t suck. uPVC frames.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Mind blown: windows that don&amp;rsquo;t suck. uPVC frames.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/4-windows/feature-window.jpg" />
+    </item>
+    
+    <item>
+      <title>Window coverings</title>
+      <link>http://thermalintegrity.com.au/posts/home-journey/window-coverings/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/home-journey/window-coverings/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  It&amp;rsquo;s curtains folks.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/window-coverings/feature-backdoor-curtain-closed-detail.jpg" />
+    </item>
+    
+    <item>
+      <title>Soundproofing</title>
+      <link>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Air seals, insulation, staggered studs, double plasterboard, acoustic underlay, secondary glazing.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/feature-glue.jpg" />
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/8-windows/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/8-windows/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Every home needs decent windows. Of course these come at a price. So I tried my hand at making my own timber windows.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/cottage-deep-retrofit/8-windows/feature-window-awning-from-outside.jpg" />
+    </item>
+    
+    <item>
+      <title>Door and window</title>
+      <link>http://thermalintegrity.com.au/posts/lime-sublime/8-door-and-window/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/lime-sublime/8-door-and-window/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  An insulated door and a uPVC window. Thrifted luxury.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/8-door-and-window/feature-door-wool-insulation.jpg" />
+    </item>
+    
+    <item>
+      <title>Shading</title>
+      <link>http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Radiation control. External sliding shade screens, plantings, awning.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/8-shading/feature-shading.jpg" />
     </item>
     
   </channel>

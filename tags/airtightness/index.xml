@@ -1,47 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>airtightness on Thermal Integrity</title>
+    <title>Airtightness on Thermal Integrity</title>
     <link>http://thermalintegrity.com.au/tags/airtightness/</link>
-    <description>Recent content in airtightness on Thermal Integrity</description>
+    <description>Recent content in Airtightness on Thermal Integrity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
     <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/airtightness/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Electricals</title>
-      <link>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Wiring up for Heat Recovery Ventilation, Air Conditioning, Lighting, Internet.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/feature-electrical.jpg" />
-    </item>
     
     <item>
-      <title>Wrap</title>
-      <link>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <title>Gap sealing</title>
+      <link>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  PSA: Inside ≠ Outside. Stop uncontrolled air leakage for a better life.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/feature-wrap.jpg" />
-    </item>
-    
-    <item>
-      <title>Soundproofing</title>
-      <link>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Air seals, insulation, staggered studs, double plasterboard, acoustic underlay, secondary glazing.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/feature-glue.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  A life less leaky.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/gap-sealing/feature-study-ceiling-gap-masking.jpg" />
     </item>
     
     <item>
@@ -50,22 +25,38 @@
       <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/quiet-shed/3-cladding/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Sheet metal with ventilated cavity. Low cost, highly durable.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Sheet metal with ventilated cavity. Low cost, highly durable.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/3-cladding/feature-cladding.jpg" />
     </item>
     
     <item>
-      <title>Gap sealing</title>
-      <link>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Soundproofing</title>
+      <link>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/home-journey/gap-sealing/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  A life less leaky.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/gap-sealing/feature-study-ceiling-gap-masking.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Air seals, insulation, staggered studs, double plasterboard, acoustic underlay, secondary glazing.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/5-soundproofing/feature-glue.jpg" />
+    </item>
+    
+    <item>
+      <title>Wrap</title>
+      <link>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  PSA: Inside ≠ Outside. Stop uncontrolled air leakage for a better life.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/6-wrap/feature-wrap.jpg" />
+    </item>
+    
+    <item>
+      <title>Electricals</title>
+      <link>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Wiring up for Heat Recovery Ventilation, Air Conditioning, Lighting, Internet.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/9-electricals/feature-electrical.jpg" />
     </item>
     
   </channel>

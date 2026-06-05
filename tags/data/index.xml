@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data on Thermal Integrity</title>
+    <title>Data on Thermal Integrity</title>
     <link>http://thermalintegrity.com.au/tags/data/</link>
-    <description>Recent content in data on Thermal Integrity</description>
+    <description>Recent content in Data on Thermal Integrity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
     <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>Details</title>
-      <link>http://thermalintegrity.com.au/posts/lime-sublime/10-details/</link>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Introduction</title>
+      <link>http://thermalintegrity.com.au/posts/home-journey/introduction/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/lime-sublime/10-details/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Schedule of materials with costing.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/10-details/feature-beading.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/home-journey/introduction/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  How the Australian building industry and regulations failed to deliver a comfortable house.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/introduction/feature-reno-plans.jpg" />
     </item>
     
     <item>
       <title>Details</title>
-      <link>http://thermalintegrity.com.au/posts/the-pea-hut/11-details/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <link>http://thermalintegrity.com.au/posts/quiet-shed/8-details/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/11-details/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Schedule of materials with full costing.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/11-details/feature-details.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/quiet-shed/8-details/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Schedule of materials with costing.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/8-details/feature-spreadsheet-weathered.jpg" />
     </item>
     
     <item>
@@ -38,9 +35,7 @@
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/9-details/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Schedule of materials with costing.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Schedule of materials with costing.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/cottage-deep-retrofit/9-details/feature-clay-soaked.jpg" />
     </item>
     
@@ -50,34 +45,28 @@
       <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/quiet-shed/9-performance/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Acoustic results, and conclusions.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Acoustic results, and conclusions.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/9-performance/feature-test-tones-recordings.jpg" />
     </item>
     
     <item>
       <title>Details</title>
-      <link>http://thermalintegrity.com.au/posts/quiet-shed/8-details/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      <link>http://thermalintegrity.com.au/posts/lime-sublime/10-details/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/quiet-shed/8-details/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  Schedule of materials with costing.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/quiet-shed/8-details/feature-spreadsheet-weathered.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/lime-sublime/10-details/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Schedule of materials with costing.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/lime-sublime/10-details/feature-beading.jpg" />
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>http://thermalintegrity.com.au/posts/home-journey/introduction/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Details</title>
+      <link>http://thermalintegrity.com.au/posts/the-pea-hut/11-details/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://thermalintegrity.com.au/posts/home-journey/introduction/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  How the Australian building industry and regulations failed to deliver a comfortable house.
-&lt;/div&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-journey/introduction/feature-reno-plans.jpg" />
+      <guid>http://thermalintegrity.com.au/posts/the-pea-hut/11-details/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Schedule of materials with full costing.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/11-details/feature-details.jpg" />
     </item>
     
     <item>
@@ -86,9 +75,7 @@
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/home-ventilation/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  How to breathe well (without freezing). Solving indoor air quality and mould problems using mechanical ventilation with heat recovery.
-&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  How to breathe well (without freezing). Solving indoor air quality and mould problems using mechanical ventilation with heat recovery.&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/home-ventilation/feature-hrv-duct-distribution.jpg" />
     </item>
     
