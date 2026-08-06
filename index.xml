@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Intro</title>
@@ -517,6 +517,16 @@
       <guid>http://thermalintegrity.com.au/posts/the-pea-hut/12-review-2y/</guid>
       <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  How it&amp;rsquo;s going after 2 years&#xA;&lt;/div&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/the-pea-hut/12-review-2y/feature-inside.jpg" />
+    </item>
+    
+    <item>
+      <title>Some thoughts on rice husks</title>
+      <link>http://thermalintegrity.com.au/posts/thoughts-on-rice-husks/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/thoughts-on-rice-husks/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Rice husk. Insulative, natural, breathable, mould-resistant, fire-resistant, and a cheap waste product. Now I just need to figure out how to make it stick together.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/thoughts-on-rice-husks/feature-rice-husks-closeup.jpg" />
     </item>
     
     <item>

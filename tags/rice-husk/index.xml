@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rice Husk on Thermal Integrity</title>
+    <link>http://thermalintegrity.com.au/tags/rice-husk/</link>
+    <description>Recent content in Rice Husk on Thermal Integrity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Thermal Integrity</copyright>
+    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/tags/rice-husk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Insulation</title>
+      <link>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/4-insulation/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/cottage-deep-retrofit/4-insulation/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  What if there was a material that buffered temperatures; didn&amp;rsquo;t trap moisture; was durable; cheap and easy to buy; an agricultural waste product?&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/cottage-deep-retrofit/4-insulation/feature-ricecrete-floor-inprogress.jpg" />
+    </item>
+    
+    <item>
+      <title>Some thoughts on rice husks</title>
+      <link>http://thermalintegrity.com.au/posts/thoughts-on-rice-husks/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/thoughts-on-rice-husks/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Rice husk. Insulative, natural, breathable, mould-resistant, fire-resistant, and a cheap waste product. Now I just need to figure out how to make it stick together.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/thoughts-on-rice-husks/feature-rice-husks-closeup.jpg" />
+    </item>
+    
+  </channel>
+</rss>
