@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Thermal Integrity</copyright>
-    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/authors/felixandrews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://thermalintegrity.com.au/authors/felixandrews/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Intro</title>
@@ -522,11 +522,21 @@
     <item>
       <title>Articles</title>
       <link>http://thermalintegrity.com.au/posts/</link>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       
       <guid>http://thermalintegrity.com.au/posts/</guid>
       <description></description>
       
+    </item>
+    
+    <item>
+      <title>Compression versus containment</title>
+      <link>http://thermalintegrity.com.au/posts/compression-vs-containment/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://thermalintegrity.com.au/posts/compression-vs-containment/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Every problem I had making rice husk blocks came from asking one material to be strong and insulating at the same time. It turns out it doesn&amp;rsquo;t have to be.&#xA;&lt;/div&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://thermalintegrity.com.au/posts/compression-vs-containment/feature-cassette-filled.jpg" />
     </item>
     
     <item>
